@@ -21,6 +21,7 @@ const todosApp = {
           text: this.newTodo.text,
           done: false
         });
+        localStorage.setItem("todos",  JSON.stringify(this.todos));
 
         // limpiamos el input
         this.newTodo.text = '';
