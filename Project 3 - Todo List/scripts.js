@@ -1,21 +1,12 @@
 // 3.- create an array to save the items
-var todos = [
-  {
-    text: 'Learn HTML, CSS and Javascript',
-    done: true
-  },
-  {
-    text: 'Learn the basics of Go',
-    done: false
-  }
-];
+
 
 // 1.- initializing the component
 const todosApp = {
   data() {
     return {
       // puedes usar window.todos o solo todos
-      todos: window.todos, 
+      todos: [], 
       newTodo: {
         text: '',     // texto vacío al inicio
         done: false
