@@ -21,10 +21,16 @@ const handlingForms = {
     },
     methods:{
         addMember:function(){
+            if(this.newMember.fname && this.newMember.lname && this.newMember.instrument){
             this.members.push(this.newMember);
+            this.newMember = {};
+            }else{
+                alert("All fields must be filled");
+            }
+
+            }
+           
         }
     }
-
-};
 
 Vue.createApp(handlingForms).mount('#app');
