@@ -29,7 +29,11 @@ const todosApp = {
         alert("Todo text is required");
       }
     }
+  },
+  created(){
+    this.todos = localStorage.getItem("todos") ? JSON.parse(localStorage.getItem("todos")) : this.todos;
   }
+
 };
 
 // 2.- call the instance and mount the component in the html file
