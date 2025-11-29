@@ -73,7 +73,32 @@ arreglos en Vue
 -   Visual Studio Code
 
 ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
+### 2️⃣ Project 3 -- To do list
+
+Aplicación para registrar miembros de una banda usando formularios.
+
+**Características:** - Listado dinámico con `v-for` - Two-way data
+binding con `v-model` - Formularios reactivos - Manejo de objetos, 
+arreglos en Vue, guardadp  y actualizacion en  Local storage
+
+📁 Carpeta:
+
+    Project 2 - Working With Forms
+
+------------------------------------------------------------------------
+
+## 🛠️ Tecnologías Utilizadas
+
+-   HTML5
+-   CSS3
+-   JavaScript
+-   Vue.js 3 (CDN)
+-   Git & GitHub
+-   Visual Studio Code
+
+------------------------------------------------------------------------
 ## ▶️ Cómo ejecutar los proyectos
 
 1.  Clona el repositorio:
